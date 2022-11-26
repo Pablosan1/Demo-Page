@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#Home-Container{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Home-Content{
+    width: 80%;
+}
+
+#banner{
+    margin-top: 40px;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-img{
+    width: 100%;
+    height: 600px;
+    
+    position: relative;
+
+    object-fit: cover;
+}
+
+#banner-text{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    position: absolute;
+}
+
+#banner-btn{
+    width: max-content;
+    padding:15px;
+
+    background-color: white;
+}
+
+#banner-p{
+    font-family: sans-serif;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#product-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+#Sales-Text{
+    font-size: 24px;
+
+    border-bottom: 0.5px grey solid;
+}
+
+#sale-display{
+    display: flex;
+    align-content: center;
+}
+
+.sale-item{
+    width: 200px;
+    height: 200px;
+
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.sale-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+    border-radius: 15px;
+}
+
+#mid-item{
+    border-left: 0.5px solid grey;
+    border-right: 0.5px solid grey;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 950px) {
+    .flex-row {
+      flex-direction: column;
+    }
+
+    #Home-Content{
+        width: 100%;
+    }
+}
